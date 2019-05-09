@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="style/header_footer_style.css" rel="stylesheet">
+    <link href="style/side_menu_style.css" rel="stylesheet">
+    <script src="script/menu_controls.js"></script>
+    <style>
+        html { 
+            height: 100%;
+        }
+        
+        body {
+            min-height: 100%; 
+            position: relative; 
+            padding-bottom: 80px;
+        }
+        p.page_title {
+            font-family: 'Abel', sans-serif;
+            font-size: 40px;
+            position: relative;
+            color: gray;
+            margin: 0%;
+            padding-left: 100px;
+            padding-bottom: 25px;
+        }
+
+        .content_wrapper {
+            padding-left: 125px;
+            font-size: 13pt;
+            font-family: Abel, sans-serif;
+            color: gray;
+        }
+
+        a {
+            color: #96b5e8;
+        }
+
+    </style>
+
+    <title>Personnel: The Claremont Run</title>
+</head>
+
+<body>
+    <div id="hamburgerMenu" class="sideMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSideMenu()">&times;</a>
+        <a href="Home.html">Home</a>
+        <a href="Foreword.html">Foreword</a>
+        <a href="personnel.html">Personnel</a>
+        <a href="Data.html"> Data</a>
+        <a href="Forum.html">Forum</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="header">
+        <img src="assets/header_logo.jpg" , style="width:190px;height:100px;" />
+        <a href="javascript:void(0);" onclick="openSideMenu()">
+            <img class="menu_icon" , src="assets/hamburger_menu_icon.jpg" , style="width:50px;height:40px;" />
+        </a>
+    </div>
+    <p class="page_title"> Project Data</p>
+
+    <div class="content_wrapper">
+    <p> The Claremont Run tracks quantitative data on Chris Claremont's Uncanny X-Men run. Data currently tracked in the project includes (but is not limited to): </p>
+    <ul>
+        <li> Character visualizations </li>
+        <li> Character speech </li>
+        <li> Bechdel tests pass/fails per issue </li>
+        <li> Character behaviour/actions </li>
+        <li> Issue covers, including character visualizations and narrations</li>
+        <li> Locations within each issue </li>
+    </ul>
+
+    <br>
+    The raw spreadsheets for each dataset can be viewed and downloaded below:
+    <ul>
+        <li> Character behaviour, bechdel test results, cover logging, and issue setting tracking spreadsheets: 
+                <a href = "spreadsheets/character_and_location_data.xlsx">character_and_location_data.xlsx</a>
+        </li>
+        <li> Character visualizations and speech: 
+            <a href = "spreadsheets/character_visualization_data.xlsx">character_visualization_data.xlsx</a>
+        </li>
+    </ul>
+    </div>
+    <div class="footer">
+        <p> &nbsp; </p>
+    <div>
+        <img class = "footer_img"; src="assets/sshrc_logo.png"; style="width:150px;height:30px"/>
+        <p class = "header_funding_text"> || &nbsp; <i>Funded by the  Social Sciences and Humanities Research Council &emsp; </i></p>
+    </div>
+    <div>
+        <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>    
+        <img class = "footer_img"; src="assets/st_jeromes_logo.jpg" ; style="width:18px;height:22px;"/>
+            <p> &nbsp;  || &nbsp; <i> St. Jeromes University - Department of English &emsp;</i> </p>
+        </div>
+        <p>  &nbsp; </p>
+    </div>
+</body>
+</html>

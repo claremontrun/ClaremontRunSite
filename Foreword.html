@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="assets/site_icon.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="style/header_footer_style.css" rel="stylesheet">
+    <link href="style/side_menu_style.css" rel="stylesheet">
+    <script src="script/menu_controls.js"></script>
+
+    <style>
+        html { height: 100%; }
+        body {
+            min-height:100%; 
+            position:relative; 
+            padding-bottom:80px;
+        }
+
+        p.page_title {
+            font-family: 'Abel', sans-serif;
+            font-size: 40px;
+            position: relative;
+            color: gray;
+            margin: 0%;
+            padding-left: 100px;
+            padding-bottom: 20px;
+
+            /*
+            Without this min_width line, the page title text will cover the menu button,
+            making it impossible to open. Normally, this would be solved using a z-index
+            on the menu button. But in this case, the menu button gets covrered by its own
+            close button, so that doens't work here. A workaround is to limit the size
+            of this title (should be fine since it has a fixed font size) to basically
+            prevent it from ever covering the menu button. This isn't the best approach,
+            but will do for the interim.
+            TODO: come up with a better solution for this. Fix javascript to use
+            z-index changing properly.
+            */
+            max-width: 20%;
+        }
+
+        .foreword_text {
+            font-size: 12pt;
+            font-family: Abel, sans-serif;
+            color: gray;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+    </style>
+</head>
+<title>Foreword: The Claremont Run</title>
+
+<body>
+    <div id="hamburgerMenu" class="sideMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSideMenu()">&times;</a>
+        <a href="Home.html">Home</a>
+        <a href="Foreword.html">Foreword</a>
+        <a href="personnel.html">Personnel</a>
+        <a href="Data.html"> Data</a>
+        <a href="Forum.html">Forum</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="header">
+        <img src="assets/header_logo.jpg" , style="width:190px;height:100px;" />
+        <a href="javascript:void(0);" , id = "test" , onclick="openSideMenu()">
+            <img class="menu_icon" , src="assets/hamburger_menu_icon.jpg" , style="width:50px;height:40px;" />
+        </a>
+    </div>
+    <p class="page_title"> Foreword </p>
+    <p class = "foreword_text">
+        When I say “welcome to The Claremont Run,” I’m tempted to add “hope you survive the experience” 
+        as a variation on one of Claremont’s most iconic lines in X-men comics. As a very fancy academic person, 
+        I probably shouldn’t do that, though it might actually be appropriate to the mandate of this project. 
+        You see, for today’s audiences (scholars and readers alike), approaching Claremont’s work is a deadly 
+        challenge. OK, probably not deadly, but hear me out. <br> <br>
+
+        From 1975-1991, Chris Claremont wrote X-men, forming the longest stint of any mainstream superhero 
+        writer on a single title. During his tenure, X-men went from a B-list title on the verge of cancellation, 
+        to the best-selling comic book in the world, and Claremont holds the Guinness World Record to this day 
+        for the bestselling single issue comic of all-time. <br> <br>
+
+        In spite of the Claremont Run’s unparalleled scope, the majority of academic discussions on Claremont 
+        tend to focus on his earlier years on X-men (Sabin, Maslon & Counter, Wolk), with notable attention going 
+        to The Dark Phoenix Saga and God Loves, Man Kills. At the same time, Claremont is frequently acknowledged 
+        for establishing or advancing (or establishing AND advancing) long continuity in comics. In that sense, 
+        it’s a little unusual to focus on the earlier material which had less continuity to draw from. <br> <br>
+
+        The problem, however, is intuitively forgivable, though no less tragic. How can you discuss, debate, describe 
+        and study a comics story that was 16 years in the making? How can you reconstruct that much context across 
+        so many stories, titles, and issues? As Jason Powell notes, “No one has duplicated that length of time on 
+        a mainstream superhero comic. Factor in all the X-related spin-off series, and the total sum begins to approach 
+        somewhere around 380 comics” (274). To put that number into context, if the average length of an X-men comic 
+        book is 22 pages, we’re describing a story that is 8,360 pages long. <br> <br>
+        
+        Claremont’s work is too culturally important to lose touch with. A generation of writers, filmmakers, and
+        artists were all but weaned on the stories he told, and Claremont’s fingerprints are all over the media landscape 
+        that we have today – structures and strategies and dynamics. But exposing a new generation of readers and 
+        scholars to the Claremont run (in all its scope) is challenging to say the least. <br> <br>
+
+        And that’s where our humble website comes in. By building an expansive data set on the Claremont run, this 
+        project hopes to open new doors of exploration and consideration for the next generation of comics scholars. 
+        In this sense, this project is looking both to the past (in order to deconstruct and chronicle the landmark 
+        contribution of a comics artist to the field of popular culture as a whole) and to the future (in order 
+        to facilitate yet-to-come discussions of the author’s work, enabling and empowering future breakthroughs). <br> <br>
+
+        In order to accomplish this data-mining, my team and I have been conducting content analysis on Chris 
+        Claremont’s first run of X-men comics, building up a rather massive data set for future scholars to study 
+        (myself included). The process entails page-by-page, panel-by-panel analysis of Claremont’s run on Uncanny 
+        X-men issues #97-279, gathering quantitative information on things like structure, characterization, and 
+        representation. <br> <br>
+
+        When perceived as the enormous whole that it is, the Claremont run is deeply invested in the character 
+        developments, plots, and symbolism established throughout the many years spent building it. This is a 
+        dynamic, cumulative story, and when we read it with an eye to the past, we see a significantly more 
+        complex, unique and engaging narrative, worthy of the kind of attention afforded to Claremont’s 
+        more-discussed earlier arcs. Beyond that, the unique nature of the run (in its longevity and in the 
+        creative control that Claremont was able to wrestle from Marvel) makes it a singularly unique object 
+        of study in the history of North American comics. Thus, studying the Claremont run is studying comics 
+        in general in a way that the usually ephemeral nature of creative team delegation does not 
+        normally allow. <br> <br> 
+
+        As Claremont’s work is now being rediscovered by a new generation, due in large part to transmediation 
+        through film adaptations, an archival project at Columbia University, and through the wildly popular 
+        Jay and Miles Xplain the X-men podcast, it is pivotal to establish the full extent of the cultural 
+        value of Claremont’s work and to create the tools necessary to understand that value both right now, 
+        and into the future. <br> <br>
+
+        It’s a lot of work, but it’s worth undertaking…and I hope you survive the experience. <br> <br>
+        
+        J. Andrew Deman, MA, PhD <br>
+        March 12, 2019
+    </p>
+
+    <!-- For some reason the footer is cutting off the bottom of the foreword. This space prevents
+        it from being blocked.
+        TODO: Fix this. It's a pretty jenky solution.-->
+    <p> &nbsp;</p>
+    
+    <div class="footer">
+            <p> &nbsp; </p>
+        <div>
+            <img class = "footer_img"; src="assets/sshrc_logo.png"; style="width:150px;height:30px"/>
+            <p class = "header_funding_text"> || &nbsp; <i>Funded by the  Social Sciences and Humanities Research Council &emsp; </i></p>
+        </div>
+        <div>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>    
+            <img class = "footer_img"; src="assets/st_jeromes_logo.jpg" ; style="width:18px;height:22px;"/>
+                <p> &nbsp;  || &nbsp; <i> St. Jeromes University - Department of English &emsp;</i> </p>
+            </div>
+            <p>  &nbsp; </p>
+            
+        </div>
+</body>

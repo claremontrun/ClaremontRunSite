@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="assets/site_icon.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="style/header_footer_style.css" rel="stylesheet">
+    <link href="style/side_menu_style.css" rel="stylesheet">
+    <script src="script/menu_controls.js"></script>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            min-height: 100%; 
+            position: relative; 
+            padding-bottom: 80px;
+        }
+        p.page_title {
+            font-family: 'Abel', sans-serif;
+            font-size: 40px;
+            position: relative;
+            color: gray;
+            margin: 0%;
+            padding-left: 100px;
+            padding-bottom: 25px;
+            max-width: 20%;
+        }
+
+        .person_entry {
+            position: relative;
+            padding-left: 50px;
+            vertical-align: middle;
+            max-width: 80%;
+            min-height: 200px;
+            padding-left: 105px;
+            padding-bottom: 20px;
+        }
+
+        img.personnel_entry {
+            float: left;
+        }
+
+        .personnel_text {
+            vertical-align: center;
+            align-content: center;
+            padding-left: 180px;
+        }
+
+        p.employee_name {
+            font-family: 'Abel', sans-serif;
+            font-size: 22px;
+            display: inline;
+        }
+        p.position_title {
+            font-family: 'Abel', sans-serif;
+            color: gray;
+            font-size: 16px;
+            font-style: italic;
+            display: inline;
+        }
+
+        p.position_description {
+            font-family: 'Abel', sans-serif;
+            color: gray;
+            font-size: 15px;
+        }
+    </style>
+
+    <title>Personnel: The Claremont Run</title>
+</head>
+
+<body>
+    <div id="hamburgerMenu" class="sideMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSideMenu()">&times;</a>
+        <a href="Home.html">Home</a>
+        <a href="Foreword.html">Foreword</a>
+        <a href="personnel.html">Personnel</a>
+        <a href="Data.html"> Data</a>
+        <a href="Forum.html">Forum</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="header">
+        <img src="assets/header_logo.jpg" , style="width:190px;height:100px;" />
+        <a href="javascript:void(0);" onclick="openSideMenu()">
+            <img class="menu_icon" , src="assets/hamburger_menu_icon.jpg" , style="width:50px;height:40px;" />
+        </a>
+    </div>
+    <p class="page_title"> Personnel</p>
+    <div class="person_entry">
+        <img class="personnel_entry" src="assets/personnel_images/andrew.jpg" , style="width:150px;height:200px;">
+        <div class="personnel_text">
+            <p class="employee_name"> J. Andrew Deman</p>
+            <p class = "position_title"> &ndash; Project Lead </p>
+            <p class="position_description">Andrew specializes in the comics medium. His research is published in <i>Femspec, 
+                Critical Survey of  Graphic Novels, American Visual Memoir After the 1970s, English Studies Forum, 
+                TRANSverse, Canadian Graphic </i>(winner of the 2017 Gabrielle Roy prize), and in his recent book 
+                <i>The Margins of Comics </i>(available from Nuada Press). He also served as a featured expert for the ten 
+                part comics documentary series <i> INK: Alter Egos Exposed </i>, and was the Past President of the Canadian Society 
+                for the Study of Comics (CSSC).  <br/> <br/> 
+                
+                When not working, Andrew can be found chasing after his children, shouting “be careful.”</p>
+        </div>
+    </div>
+
+    <div class="person_entry">
+        <img class="personnel_entry" src="assets/personnel_images/rebeccah.jpg" , style="width:150px;height:200px;">
+        <div class="personnel_text">
+            <p class="employee_name"> Rebeccah Redden</p>
+            <p class = "position_title"> &ndash; Research Assistant </p>
+            <p class="position_description">Rebeccah Redden is a MA student in Media Studies at Concordia University.
+                She is researching ways to use Street-view mapping to project climate futures. She is a filmmaker, writer, 
+                and now knows way too much about the Uncanny X-men. </p>
+        </div>
+    </div>
+
+     <div class="person_entry">
+            <img class="personnel_entry" src="assets/personnel_images/lauryn.jpg" , style="width:150px;height:200px;">
+            <div class="personnel_text">
+                <p class="employee_name">Lauryn Watters</p>
+                <p class = "position_title"> &ndash; Research Assistant </p>
+                <p class="position_description"> Lauryn Watters was born and raised in Toronto where she lives with her 
+                    family and her two dogs. She is currently finishing her first year at St. Jerome’s University where 
+                    she is majoring in Legal Studies and minoring in English. Along with being a lifelong comics fan, 
+                    Lauryn also has interests in film, social sciences, volunteering and the law. </p>
+            </div>
+     </div>
+     <div class="person_entry">
+            <img class="personnel_entry" src="assets/temp_avatar.png" , style="width:150px;height:200px;">
+            <div class="personnel_text">
+                <p class="employee_name">Sabrina Carols</p>
+                <p class = "position_title"> &ndash; Research Assistant </p>
+                <p class="position_description"> Sabrina is a third-year student studying Computer Science at the University 
+                    of Waterlooo. Sabrina has an impressive power she does not yet know how to control, where she can divert 
+                    any conversation into one about Marvel, the Marvel Cinematic Universe, or the Uncanny X-Men.
+                
+                </p>
+            </div>
+     </div>
+
+     <br> 
+     <div class="footer">
+            <p> &nbsp; </p>
+        <div>
+            <img class = "footer_img"; src="assets/sshrc_logo.png"; style="width:150px;height:30px"/>
+            <p class = "header_funding_text"> || &nbsp; <i>Funded by the  Social Sciences and Humanities Research Council &emsp; </i></p>
+        </div>
+        <div>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>    
+            <img class = "footer_img"; src="assets/st_jeromes_logo.jpg" ; style="width:18px;height:22px;"/>
+                <p> &nbsp;  || &nbsp; <i> St. Jeromes University - Department of English &emsp;</i> </p>
+            </div>
+            <p>  &nbsp; </p>
+            
+        </div>
+</body>
+
+</html>

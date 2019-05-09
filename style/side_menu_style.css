@@ -1,0 +1,46 @@
+.sideMenu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: gray;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  opacity: 0.6;
+  filter: alpha(opacity=50);
+}
+
+.sideMenu a {
+  padding: 10px 8px 8px 32px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.4s;
+  font-size: 20px;
+  font-family: 'Abel', sans-serif;
+}
+
+.sideMenu a:visited {
+    color: white;
+}
+
+.sideMenu a:hover {
+  color: black;
+}
+
+.sideMenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 40px;
+    z-index: 1;
+  }
+
+@media screen {
+    .sideMenu {padding-top: 15px;}
+    .sideMenu a {font-size: 18px;}
+  }

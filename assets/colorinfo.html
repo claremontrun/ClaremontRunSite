@@ -1,0 +1,583 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transiti nal//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- saved from url=(0061)http://teaching.csse.uwa.edu.au/units/CITS1001/colorinfo.html -->
+<html lang="EN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+</head>
+
+<!-- -------------------------------------------------------------------- -->
+
+<body bgcolor="#FFFFFF" link="#000066" vlink="#111199" alink="#3E3E3E">
+
+<h1>Colors in Java </h1>
+
+
+<p>For tthe first cits1001 project you can use the built in Java colours which are defined in java.awt.Color.
+Here are a few examples.  Look up the rest in the Java library documentation.
+</p><pre>  import java.awt.Color
+  
+  Pen pen = new Pen();
+  pen.setColor( Color.RED );
+  pen.setColor( Color.GREEN );
+  pen.setColor( Color.BLUE);
+  pen.setColor( Color.BLACK );
+</pre>
+
+However, you may wish to create some more colours.  You can do this
+using the RGB constructor, as shown below.
+Or if interested, you may also wish to research other
+colour models such as HSBColor.
+
+  <p>Here is a selection of useful RGB colours.</p>
+  
+  <p>Create a new colour by diving its red, green, blue components:
+  </p><pre>  import java.awt.Color;
+  public static final Color VERY_LIGHT_RED = new Color(255,102,102);
+</pre>
+
+  <table>
+    <tbody>
+      <tr>
+        <th></th>
+
+        <th>
+          <p>Color</p>
+        </th>
+
+        <th>
+          <p>RGB Value</p>
+        </th>
+
+        <th>
+          <p>Swatch</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td colspan="4">
+          <hr>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Very light red</p>
+        </td>
+
+        <td>
+          <p>255-102-102</p>
+        </td>
+
+        <td bgcolor="#FF6666" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Light red</p>
+        </td>
+
+        <td>
+          <p>255- 51- 51</p>
+        </td>
+
+        <td bgcolor="#FF3333" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Red</p>
+        </td>
+
+        <td>
+          <p>255- 0 - 0</p>
+        </td>
+
+        <td bgcolor="#FF0000" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Dark red</p>
+        </td>
+
+        <td>
+          <p>204- 0 - 0</p>
+        </td>
+
+        <td bgcolor="#CC0000" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Very dark red</p>
+        </td>
+
+        <td>
+          <p>153- 0 - 0</p>
+        </td>
+
+        <td bgcolor="#990000" align="center"></td>
+      </tr>
+
+      <tr>
+        <td colspan="4">
+          <hr>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Very light blue</p>
+        </td>
+
+        <td>
+          <p>51-204-255</p>
+        </td>
+
+        <td bgcolor="#33CCFF" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Light blue</p>
+        </td>
+
+        <td>
+          <p>51-153-255</p>
+        </td>
+
+        <td bgcolor="#3399FF" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Blue</p>
+        </td>
+
+        <td>
+          <p>0 - 0 -255</p>
+        </td>
+
+        <td bgcolor="#0000FF" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Dark blue</p>
+        </td>
+
+        <td>
+          <p>0 - 0 -204</p>
+        </td>
+
+        <td bgcolor="#0000CC" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Very dark blue</p>
+        </td>
+
+        <td>
+          <p>0 - 0 -153</p>
+        </td>
+
+        <td bgcolor="#000099" align="center"></td>
+      </tr>
+
+      <tr>
+        <td colspan="4">
+          <hr>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Very light green</p>
+        </td>
+
+        <td>
+          <p>102-255-102</p>
+        </td>
+
+        <td bgcolor="#66FF66" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Light green</p>
+        </td>
+
+        <td>
+          <p>0 -255- 51</p>
+        </td>
+
+        <td bgcolor="#00FF33" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Green</p>
+        </td>
+
+        <td>
+          <p>0 -204- 0</p>
+        </td>
+
+        <td bgcolor="#00CC00" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Dark green</p>
+        </td>
+
+        <td>
+          <p>0 -153- 0</p>
+        </td>
+
+        <td bgcolor="#009900" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Very dark green</p>
+        </td>
+
+        <td>
+          <p>0 -102- 0</p>
+        </td>
+
+        <td bgcolor="#006600" align="center"></td>
+      </tr>
+
+      <tr>
+        <td colspan="4">
+          <hr>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Very light yellow</p>
+        </td>
+
+        <td>
+          <p>255-255-204</p>
+        </td>
+
+        <td bgcolor="#FFFFCC" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Light yellow</p>
+        </td>
+
+        <td>
+          <p>255-255-153</p>
+        </td>
+
+        <td bgcolor="#FFFF99" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Yellow</p>
+        </td>
+
+        <td>
+          <p>255-255- 0</p>
+        </td>
+
+        <td bgcolor="#FFFF00" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Dark yellow</p>
+        </td>
+
+        <td>
+          <p>255-204- 0</p>
+        </td>
+
+        <td bgcolor="#FFCC00" align="center"></td>
+      </tr>
+
+      <tr>
+        <td colspan="4">
+          <hr>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Light orange</p>
+        </td>
+
+        <td>
+          <p>255-153- 0</p>
+        </td>
+
+        <td bgcolor="#FF9900" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Orange</p>
+        </td>
+
+        <td>
+          <p>255-102- 0</p>
+        </td>
+
+        <td bgcolor="#FF6600" align="center"></td>
+      </tr>
+
+      <tr>
+        <td colspan="4">
+          <hr>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Gold</p>
+        </td>
+
+        <td>
+          <p>255-204- 51</p>
+        </td>
+
+        <td bgcolor="#FFCC33" align="center"></td>
+      </tr>
+
+      <tr>
+        <td colspan="4">
+          <hr>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Light grey</p>
+        </td>
+
+        <td>
+          <p>204-204-204</p>
+        </td>
+
+        <td bgcolor="#CCCCCC" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Grey</p>
+        </td>
+
+        <td>
+          <p>153-153-153</p>
+        </td>
+
+        <td bgcolor="#999999" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Dark grey</p>
+        </td>
+
+        <td>
+          <p>102-102-102</p>
+        </td>
+
+        <td bgcolor="#666666" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Very dark grey</p>
+        </td>
+
+        <td>
+          <p>51- 51- 51</p>
+        </td>
+
+        <td bgcolor="#333333" align="center"></td>
+      </tr>
+
+      <tr>
+        <td colspan="4">
+          <hr>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Light brown</p>
+        </td>
+
+        <td>
+          <p>153-102- 0</p>
+        </td>
+
+        <td bgcolor="#996600" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Brown</p>
+        </td>
+
+        <td>
+          <p>102- 51- 0</p>
+        </td>
+
+        <td bgcolor="#663300" align="center"></td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Dark brown</p>
+        </td>
+
+        <td>
+          <p>51- 0 - 0</p>
+        </td>
+
+        <td bgcolor="#330000" align="center"></td>
+      </tr>
+
+      <tr>
+        <td colspan="4">
+          <hr>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Purple</p>
+        </td>
+
+        <td>
+          <p>102- 0 -153</p>
+        </td>
+
+        <td bgcolor="#660099" align="center"></td>
+      </tr>
+
+      <tr>
+        <td colspan="4">
+          <hr>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>Black</p>
+        </td>
+
+        <td>
+          <p>0 - 0 - 0</p>
+        </td>
+
+        <td bgcolor="#000000" align="center"></td>
+      </tr>
+
+      <tr>
+        <td colspan="4">
+          <hr>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+
+        <td>
+          <p>White</p>
+        </td>
+
+        <td>
+          <p>255-255-255</p>
+        </td>
+
+        <td bgcolor="#FFFFFF" align="center"></td>
+      </tr>
+      
+            <tr>
+        <td colspan="4">
+          <hr>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+
+
+
+
+</body></html>

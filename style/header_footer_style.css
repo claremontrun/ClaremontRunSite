@@ -1,0 +1,48 @@
+html,body {
+    margin: 2px 0px 0px 0px;
+    padding: 2px 0px 0px 0px;
+}
+
+.header {
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.menu_icon {
+    position: fixed;
+    top: 35px;
+    right: 15px;
+}
+
+.header_funding_text {
+    display: inline;
+    font-size: 12px;
+}
+
+.footer {
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    line-height: 5px;
+    background-color: #F0F0F0;
+    text-align: center;
+    color: gray;
+}
+
+.footer_img {
+    vertical-align: middle;
+    padding-right: 8px;
+    display: inline;
+}
+
+.footer p {
+    display:inline-block;
+    font-size: 11px;
+    font-family: Abel, sans-serif;
+}

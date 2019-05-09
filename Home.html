@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="assets/site_icon.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="style/header_footer_style.css" rel="stylesheet">
+    <link href="style/side_menu_style.css" rel="stylesheet">
+    <script src="script/menu_controls.js"></script>
+
+    <style>
+        html { height: 100%; }
+        body {
+            min-height: 100%; 
+            position: relative; 
+            padding-bottom: 80px;
+        }
+       p {
+            font-family: 'Abel', sans-serif;
+            font-size: 13pt;
+            color: gray;
+        }
+
+        p.forward_text {
+            font-size: 10pt;
+            color: gray;
+            max-width: 600px;
+        }
+
+        .cover {
+            padding-top: 35px;
+            display: inline-block;
+            width: 200px;
+            padding-right: 1%;
+            padding-left: 1%;
+            padding-bottom: 40px;
+        }
+
+        .cover p {
+            color: gray;
+            font-size: 12pt;
+            text-decoration: none;
+            font-family: 'Abel', sans-serif;
+        }
+
+        .cover_img {
+            height: 300px;
+            width: 200px;
+            opacity: 0.7;
+            filter: alpha(opacity=100);
+        }
+
+        .cover_img:hover {
+            opacity: 0.2;
+            filter: alpha(opacity=50);
+        }
+
+        .cover_desription_text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+}
+
+        p.page_title {
+            font-family: 'Abel', sans-serif;
+            font-size: 40px;
+            position: relative;
+            color: #686767;
+            margin: 0%;
+            max-width: 50%;
+            /* padding-top: 2%; */
+        }
+    </style>
+
+    <title>The Claremont Run</title>
+</head>
+
+<body>
+    <div id="hamburgerMenu" class="sideMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSideMenu()">&times;</a>
+        <a href="Home.html">Home</a>
+        <a href="Foreword.html">Foreword</a>
+        <a href="personnel.html">Personnel</a>
+        <a href="Data.html"> Data</a>
+        <a href="Forum.html">Forum</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="header">
+            <img src="assets/header_logo.jpg" , style="width:190px;height:100px;" />
+            <a href="javascript:void(0);" onclick="openSideMenu()">
+                <img class="menu_icon" , src="assets/hamburger_menu_icon.jpg" , style="width:50px;height:40px;" />
+            </a>
+        </div>
+
+    <center>
+        <p class="page_title">The Claremont Run</p>
+        <img src="assets/homepage_header_separator.jpg" ; style="width:260px;height:60px;" />
+        <p class="forward_text"> <i> A project exploring Chris Claremont's sixteen year run on Uncanny X-Men, and its
+                impact on gender and sexuality in comics, and long continuity in modern media.</i> <br> <br>
+
+                Read the project's foreword <u><a href = "Foreword.html">here </a></u>.
+            
+            </p>
+    </center>
+    <div class = "content_wrapper">
+    <center>
+        <div class="cover">
+            <a href = "Personnel.html">
+                <img src="assets/comic_covers/cover3.jpg" class="cover_img" />
+            </a>
+            <p>Personnel</p>
+        </div>
+        <div class="cover">
+            <a href = "Data.html">
+                <img src="assets/comic_covers/cover4.jpg" class="cover_img" />
+            </a>
+            <p>Project Data</p>
+        </div>
+        <div class="cover">
+                <a href = "Forum.html">
+                    <img src="assets/comic_covers/cover2.jpg" class="cover_img" />
+                </a>    
+                <p>Forum</p>
+            </div>
+        <div class="cover">
+            <a href = "Contact.html">
+                <img src="assets/comic_covers/cover5.jpg" class="cover_img" />
+            </a>
+            <p>Contact</p>
+        </div>
+    </center>
+    </div>
+    <div class="footer">
+            <p> &nbsp; </p>
+        <div>
+            <img class = "footer_img"; src="assets/sshrc_logo.png"; style="width:150px;height:30px"/>
+            <p class = "header_funding_text"> || &nbsp; <i>Funded by the  Social Sciences and Humanities Research Council &emsp; </i></p>
+        </div>
+        <div>
+            <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>    
+            <img class = "footer_img"; src="assets/st_jeromes_logo.jpg" ; style="width:18px;height:22px;"/>
+                <p> &nbsp;  || &nbsp; <i> St. Jeromes University - Department of English &emsp;</i> </p>
+            </div>
+            <p>  &nbsp; </p>
+            
+        </div>
+
+</body>
+</html>

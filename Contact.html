@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="assets/site_icon.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="style/header_footer_style.css" rel="stylesheet">
+    <link href="style/side_menu_style.css" rel="stylesheet">
+    <script src="script/menu_controls.js"></script>
+
+    <style>
+        html { height: 100%; }
+        body {
+            min-height:100%; 
+            position:relative; 
+            padding-bottom:80px;
+        }
+        p.page_title {
+            font-family: 'Abel', sans-serif;
+            font-size: 40px;
+            position: relative;
+            color: gray;
+            margin: 0%;
+            padding-top: 2%;
+            padding-left: 100px;
+            padding-bottom: 20px;
+            max-width: 50%;
+        }
+
+        p {
+            font-size: 14pt;
+            font-family: Abel, sans-serif;
+            color: gray;
+        }
+        p.page_description {
+            padding-left: 100px;
+        }
+
+        .contact_entry {
+            position: relative;
+            vertical-align: middle;
+            height: 280px;
+            width: 375px;
+            display: inline-block;
+            text-align: left;
+        }
+
+        p.contact_field_value {
+            vertical-align: middle;
+            display: inline-block;
+            font-size: 12pt;
+        }
+
+        p.contact_title {
+            font-size: 20pt;
+            font-family: Abel, sans-serif;
+            color: gray;
+            text-align: center;
+        }
+
+        .field_entries {
+            list-style-type: none;
+            line-height: 15px;
+            display: inline-block;
+        }
+        .contact_social_icon {
+            height: 30px;
+            width: 30px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        .contact_content_wrapper {
+            margin-top: 40px;
+        }
+
+        li {
+            padding-left: 10px;
+        }
+        img {
+            display: inline;
+            vertical-align: middle;
+        }
+    </style>
+
+</head>
+<title>Contact: The Claremont Run</title>
+
+<body>
+    <div id="hamburgerMenu" class="sideMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSideMenu()">&times;</a>
+        <a href="Home.html">Home</a>
+        <a href="Foreword.html">Foreword</a>
+        <a href="personnel.html">Personnel</a>
+        <a href="Data.html"> Data</a>
+        <a href="Forum.html">Forum</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="header">
+        <img src="assets/header_logo.jpg" , style="width:190px;height:100px;"/>
+            <a href="javascript:void(0);" onclick="openSideMenu()">
+            <img class="menu_icon" , src="assets/hamburger_menu_icon.jpg" , style="width:50px;height:40px;" />
+        </a>
+    </div>
+
+    <p class="page_title"> Contact </p>
+            <p class = "page_description"> You can contact The Claremont Run and its partners at the contact information below </p>
+    <br> <br> <br>
+    <center>
+        <div class = "contact_content_wrapper">
+    <div class = "contact_entry"> 
+        <p class = "contact_title"> The Claremont Project</p>
+        <ul class = "field_entries">
+            <li> <img class = "contact_social_icon", src = "assets/social_icons/website_social.png"/>
+                <p class = "contact_field_value"> &nbsp; http://www.claremontrun.com</p>
+            </li>
+            <li> <img class = "contact_social_icon", src = "assets/social_icons/email_social.png"/> 
+                <p class = "contact_field_value"> &nbsp; jademan@uwaterloo.ca</p>
+            </li>
+            <li> <img class = "contact_social_icon", src = "assets/social_icons/phone_social.png"/>
+                <p class = "contact_field_value"> &nbsp; 519-884-8111 x 28234 </p>
+            </li>
+        </ul>
+    </div>
+    <img class = "separator" src="assets/vertical_separator.jpg" ; style="height:260px;width:60px;"/>
+
+    <div class = "contact_entry"> 
+            <p class = "contact_title"> St Jeromes University</p>
+            <ul class = "field_entries">
+                <li> <img class = "contact_social_icon", src = "assets/social_icons/website_social.png"/>
+                    <p class = "contact_field_value"> &nbsp; https://www.sju.ca</p>
+                </li>
+                <li> <img class = "contact_social_icon", src = "assets/social_icons/email_social.png"/> 
+                    <p class = "contact_field_value"> &nbsp; info@sju.ca</p>
+                </li>
+                <li> <img class = "contact_social_icon", src = "assets/social_icons/phone_social.png"/>
+                    <p class = "contact_field_value"> &nbsp; 519-884-8111 </p>
+                </li>
+            </ul>
+        </div>
+    </center>
+</div>
+<div class="footer">
+        <p> &nbsp; </p>
+    <div>
+        <img class = "footer_img"; src="assets/sshrc_logo.png"; style="width:150px;height:30px"/>
+        <p class = "header_funding_text"> || &nbsp; <i>Funded by the  Social Sciences and Humanities Research Council &emsp; </i></p>
+    </div>
+    <div>
+        <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>    
+        <img class = "footer_img"; src="assets/st_jeromes_logo.jpg" ; style="width:18px;height:22px;"/>
+            <p> &nbsp;  || &nbsp; <i> St. Jeromes University - Department of English &emsp;</i> </p>
+        </div>
+        <p>  &nbsp; </p>
+        
+    </div>
+</body>
